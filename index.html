@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="screen">
+        <div class="resultsOnScreen">
+        <div class="lastResult">32</div>
+        <div class="fill" ><input class="inputNum" type="text" oninput="javascript: if (this.value.length > this.maxLength) this.value = 
+        this.value.slice(0, this.maxLength);" maxlength="12"  /></div>
+      </div>
+      </div>
+      <div class="buttons">
+        <div class="row">
+        <button class="power">x<span>y</span></button>
+        <button class="factorial">x!</button>
+        <button class="clear">C</button>
+        <button class="allclear">AC</button>
+      </div>
+      <div class="row2">
+        <button class="seven">7</button>
+        <button class="eight">8</button>
+        <button class="nine">9</button>
+        <button class="divide">÷</button>
+      </div>
+      <div class="row3">
+        <button class="four">4</button>
+        <button class="five">5</button>
+        <button class="six">6</button>
+        <button class="multiply">×</button>
+      </div>
+      <div class="row4">
+        <button class="one">1</button>
+        <button class="two">2</button>
+        <button class="three">3</button>
+        <button class="substract">-</button>
+      </div>
+      <div class="row5">
+        <button class="zero">0</button>
+        <button class="ans">Ans</button>
+        <button class="equal">=</button>
+        <button class="sum">+</button>
+      </div>
+
+
+
+
+
+      
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
